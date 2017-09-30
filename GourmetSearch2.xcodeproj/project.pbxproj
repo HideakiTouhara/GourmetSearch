@@ -16,6 +16,21 @@
 		070FA96A1F4D90EB00D7FDBC /* YahooLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FA9691F4D90EB00D7FDBC /* YahooLocal.swift */; };
 		070FA96C1F52FA9C00D7FDBC /* SearchTopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FA96B1F52FA9C00D7FDBC /* SearchTopTableViewController.swift */; };
 		070FA96E1F52FC0800D7FDBC /* FreeowordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070FA96D1F52FC0800D7FDBC /* FreeowordTableViewCell.swift */; };
+		0737CE631F6A5EF700CAF9B0 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CE621F6A5EF700CAF9B0 /* PhotoDetailViewController.swift */; };
+		0737CE651F6A817300CAF9B0 /* Licenses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0737CE641F6A817300CAF9B0 /* Licenses.plist */; };
+		0737CE681F6A856600CAF9B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CE671F6A856600CAF9B0 /* AboutViewController.swift */; };
+		0737CE6A1F6BBA3E00CAF9B0 /* LicenseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CE691F6BBA3D00CAF9B0 /* LicenseListViewController.swift */; };
+		0737CE6C1F6BC05000CAF9B0 /* LicenseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CE6B1F6BC05000CAF9B0 /* LicenseDetailViewController.swift */; };
+		074192A01F5AD9A500D83001 /* ShopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741929F1F5AD9A500D83001 /* ShopDetailViewController.swift */; };
+		074192A21F5AE57900D83001 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192A11F5AE57900D83001 /* Favorite.swift */; };
+		074192A51F5C135B00D83001 /* SearchNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192A41F5C135B00D83001 /* SearchNavigationController.swift */; };
+		074192A71F5C137800D83001 /* FavoriteNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192A61F5C137800D83001 /* FavoriteNavigationController.swift */; };
+		074192A91F5C27F400D83001 /* ShopMapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192A81F5C27F400D83001 /* ShopMapDetailViewController.swift */; };
+		074192AB1F62AFD400D83001 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192AA1F62AFD400D83001 /* LocationService.swift */; };
+		074192AF1F65713F00D83001 /* ShopPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192AE1F65713F00D83001 /* ShopPhoto.swift */; };
+		074192B71F692B1F00D83001 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192B61F692B1F00D83001 /* PhotoListViewController.swift */; };
+		074192B91F692B3900D83001 /* PhotoListItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192B81F692B3900D83001 /* PhotoListItemCollectionViewCell.swift */; };
+		074192BB1F692B5F00D83001 /* PhotoListItemCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074192BA1F692B5F00D83001 /* PhotoListItemCollectionViewHeader.swift */; };
 		D5D56D14B332868C221C7E73 /* Pods_GourmetSearch2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8177150A36F6C83D71E81A /* Pods_GourmetSearch2.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +48,21 @@
 		070FA9691F4D90EB00D7FDBC /* YahooLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooLocal.swift; sourceTree = "<group>"; };
 		070FA96B1F52FA9C00D7FDBC /* SearchTopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTopTableViewController.swift; sourceTree = "<group>"; };
 		070FA96D1F52FC0800D7FDBC /* FreeowordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeowordTableViewCell.swift; sourceTree = "<group>"; };
+		0737CE621F6A5EF700CAF9B0 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		0737CE641F6A817300CAF9B0 /* Licenses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Licenses.plist; sourceTree = "<group>"; };
+		0737CE671F6A856600CAF9B0 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		0737CE691F6BBA3D00CAF9B0 /* LicenseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseListViewController.swift; sourceTree = "<group>"; };
+		0737CE6B1F6BC05000CAF9B0 /* LicenseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseDetailViewController.swift; sourceTree = "<group>"; };
+		0741929F1F5AD9A500D83001 /* ShopDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopDetailViewController.swift; sourceTree = "<group>"; };
+		074192A11F5AE57900D83001 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		074192A41F5C135B00D83001 /* SearchNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNavigationController.swift; sourceTree = "<group>"; };
+		074192A61F5C137800D83001 /* FavoriteNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteNavigationController.swift; sourceTree = "<group>"; };
+		074192A81F5C27F400D83001 /* ShopMapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopMapDetailViewController.swift; sourceTree = "<group>"; };
+		074192AA1F62AFD400D83001 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		074192AE1F65713F00D83001 /* ShopPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopPhoto.swift; sourceTree = "<group>"; };
+		074192B61F692B1F00D83001 /* PhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		074192B81F692B3900D83001 /* PhotoListItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		074192BA1F692B5F00D83001 /* PhotoListItemCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListItemCollectionViewHeader.swift; sourceTree = "<group>"; };
 		6480E07CE8CB59BA7E917022 /* Pods-GourmetSearch2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GourmetSearch2.release.xcconfig"; path = "Pods/Target Support Files/Pods-GourmetSearch2/Pods-GourmetSearch2.release.xcconfig"; sourceTree = "<group>"; };
 		EF9757CEEB89BEB0BC3390AD /* Pods-GourmetSearch2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GourmetSearch2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GourmetSearch2/Pods-GourmetSearch2.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8177150A36F6C83D71E81A /* Pods_GourmetSearch2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GourmetSearch2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +102,9 @@
 		070FA94D1F4D7B0F00D7FDBC /* GourmetSearch2 */ = {
 			isa = PBXGroup;
 			children = (
+				0737CE661F6A854E00CAF9B0 /* About */,
+				074192B51F692B0600D83001 /* PhotoList */,
+				074192A31F5C132200D83001 /* Tabs */,
 				070FA9681F4D90BC00D7FDBC /* Common */,
 				070FA9671F4D82A100D7FDBC /* ShopList */,
 				070FA94E1F4D7B0F00D7FDBC /* AppDelegate.swift */,
@@ -79,6 +112,7 @@
 				070FA9551F4D7B0F00D7FDBC /* Assets.xcassets */,
 				070FA9571F4D7B0F00D7FDBC /* LaunchScreen.storyboard */,
 				070FA95A1F4D7B0F00D7FDBC /* Info.plist */,
+				0737CE641F6A817300CAF9B0 /* Licenses.plist */,
 			);
 			path = GourmetSearch2;
 			sourceTree = "<group>";
@@ -90,6 +124,8 @@
 				070FA9651F4D829400D7FDBC /* ShopListItemTableViewCell.swift */,
 				070FA96B1F52FA9C00D7FDBC /* SearchTopTableViewController.swift */,
 				070FA96D1F52FC0800D7FDBC /* FreeowordTableViewCell.swift */,
+				0741929F1F5AD9A500D83001 /* ShopDetailViewController.swift */,
+				074192A81F5C27F400D83001 /* ShopMapDetailViewController.swift */,
 			);
 			name = ShopList;
 			sourceTree = "<group>";
@@ -98,8 +134,41 @@
 			isa = PBXGroup;
 			children = (
 				070FA9691F4D90EB00D7FDBC /* YahooLocal.swift */,
+				074192A11F5AE57900D83001 /* Favorite.swift */,
+				074192AA1F62AFD400D83001 /* LocationService.swift */,
+				074192AE1F65713F00D83001 /* ShopPhoto.swift */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		0737CE661F6A854E00CAF9B0 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				0737CE671F6A856600CAF9B0 /* AboutViewController.swift */,
+				0737CE691F6BBA3D00CAF9B0 /* LicenseListViewController.swift */,
+				0737CE6B1F6BC05000CAF9B0 /* LicenseDetailViewController.swift */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		074192A31F5C132200D83001 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				074192A41F5C135B00D83001 /* SearchNavigationController.swift */,
+				074192A61F5C137800D83001 /* FavoriteNavigationController.swift */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		074192B51F692B0600D83001 /* PhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				074192B61F692B1F00D83001 /* PhotoListViewController.swift */,
+				074192B81F692B3900D83001 /* PhotoListItemCollectionViewCell.swift */,
+				074192BA1F692B5F00D83001 /* PhotoListItemCollectionViewHeader.swift */,
+				0737CE621F6A5EF700CAF9B0 /* PhotoDetailViewController.swift */,
+			);
+			name = PhotoList;
 			sourceTree = "<group>";
 		};
 		65A2792C46C33B154BD7D637 /* Frameworks */ = {
@@ -154,7 +223,7 @@
 				TargetAttributes = {
 					070FA94A1F4D7B0F00D7FDBC = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = W7CWZLF846;
+						DevelopmentTeam = QG4UUMT2SM;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -184,6 +253,7 @@
 			files = (
 				070FA9591F4D7B0F00D7FDBC /* LaunchScreen.storyboard in Resources */,
 				070FA9561F4D7B0F00D7FDBC /* Assets.xcassets in Resources */,
+				0737CE651F6A817300CAF9B0 /* Licenses.plist in Resources */,
 				070FA9541F4D7B0F00D7FDBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,12 +313,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074192A91F5C27F400D83001 /* ShopMapDetailViewController.swift in Sources */,
 				070FA9661F4D829400D7FDBC /* ShopListItemTableViewCell.swift in Sources */,
+				074192A21F5AE57900D83001 /* Favorite.swift in Sources */,
 				070FA9511F4D7B0F00D7FDBC /* ShopListViewController.swift in Sources */,
 				070FA96A1F4D90EB00D7FDBC /* YahooLocal.swift in Sources */,
 				070FA96E1F52FC0800D7FDBC /* FreeowordTableViewCell.swift in Sources */,
+				074192A01F5AD9A500D83001 /* ShopDetailViewController.swift in Sources */,
+				074192BB1F692B5F00D83001 /* PhotoListItemCollectionViewHeader.swift in Sources */,
 				070FA94F1F4D7B0F00D7FDBC /* AppDelegate.swift in Sources */,
+				0737CE631F6A5EF700CAF9B0 /* PhotoDetailViewController.swift in Sources */,
+				074192A71F5C137800D83001 /* FavoriteNavigationController.swift in Sources */,
 				070FA96C1F52FA9C00D7FDBC /* SearchTopTableViewController.swift in Sources */,
+				0737CE681F6A856600CAF9B0 /* AboutViewController.swift in Sources */,
+				074192AB1F62AFD400D83001 /* LocationService.swift in Sources */,
+				074192B91F692B3900D83001 /* PhotoListItemCollectionViewCell.swift in Sources */,
+				074192B71F692B1F00D83001 /* PhotoListViewController.swift in Sources */,
+				074192AF1F65713F00D83001 /* ShopPhoto.swift in Sources */,
+				074192A51F5C135B00D83001 /* SearchNavigationController.swift in Sources */,
+				0737CE6A1F6BBA3E00CAF9B0 /* LicenseListViewController.swift in Sources */,
+				0737CE6C1F6BC05000CAF9B0 /* LicenseDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = W7CWZLF846;
+				DEVELOPMENT_TEAM = QG4UUMT2SM;
 				INFOPLIST_FILE = GourmetSearch2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-HideakiTouhara.GourmetSearch2";
@@ -391,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = W7CWZLF846;
+				DEVELOPMENT_TEAM = QG4UUMT2SM;
 				INFOPLIST_FILE = GourmetSearch2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-HideakiTouhara.GourmetSearch2";

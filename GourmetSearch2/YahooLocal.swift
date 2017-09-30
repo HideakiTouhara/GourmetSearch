@@ -30,6 +30,15 @@ public struct Shop: CustomStringConvertible {
     public var hasCoupon = false
     public var station: String? = nil
     
+    public var url: String? {
+        get {
+            if let gid = gid {
+                return "http://loco.yahoo.co.jp/place/g-\(gid)/"
+            }
+            return nil
+        }
+    }
+    
     public var description: String {
         get {
             var string = "\nGid: \(gid)\n"
@@ -164,7 +173,7 @@ public class YahooLocalSearch {
         // API実行開始を通知する
         NotificationCenter.default.post(name: .apiLoadStart, object: nil)
         // APIリクエスト実行
-        let request = Alamofire.request(apiUrl, method: .get, parameters: params).response {
+        let request = Alamofire.request(apiUrl2, method: .get, parameters: params).response {
             response in
             
             var json = JSON.null;
@@ -242,5 +251,19 @@ public class YahooLocalSearch {
             // API実行終了を通知する
             NotificationCenter.default.post(name: .apiLoadComplete, object: nil)
         }
+    }
+    
+    func sortByGid() {
+        var newShops = [Shop]()
+        // 検索条件の店舗ID(Gid)一覧文字列を「,」で分割して配列に戻す
+        if let gids = self.condition.gid?.components(separatedBy: ",") {
+            for gid in gids {
+                let filtered = shops.filter{ $0.gid == gid }
+                if filtered.count > 0 {
+                    newShops.append(filtered[0])
+                }
+            }
+        }
+        shops = newShops
     }
 }
